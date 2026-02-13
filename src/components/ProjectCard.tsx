@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import type { Project } from "../data/projects";
 
 type Props = {
@@ -15,14 +16,7 @@ export default function ProjectCard({ project }: Props) {
       <p>{project.description}</p>
 
       <div className="actions">
-        <a href={project.domain} target="_blank" rel="noopener noreferrer">
-          View Demo
-        </a>
-        {project.github && (
-          <a href={project.github} target="_blank">
-            GitHub
-          </a>
-        )}
+        <Link to={`/project/${project.id}`}>View Details</Link>
       </div>
     </div>
   );

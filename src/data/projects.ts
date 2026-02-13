@@ -25,3 +25,8 @@ export const projects: Project[] = [
     domain: "https://grid.mydemos.co.in"
   }
 ];
+
+
+export const getProjectById = (id: string) =>
+    projects.find((p) => p.id === id);
+  
