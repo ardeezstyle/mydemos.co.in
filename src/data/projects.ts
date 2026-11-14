@@ -23,6 +23,13 @@ export const projects: Project[] = [
     framework: "Angular",
     description: "Virtual scroll, sorting, filtering and performance optimizations.",
     domain: "https://grid.mydemos.co.in"
+  },
+  {
+    id: "namma-metro",
+    name: "Namma Metro Interactive Network Map",
+    framework: "Google Sites",
+    description: "An interactive, beautifully designed Namma Metro map web application featuring all operational and upcoming lines, station markers, interchange hubs, filter toggles, search, and detailed popups.",
+    domain: "https://metro.mydemos.co.in"
   }
 ];
 
