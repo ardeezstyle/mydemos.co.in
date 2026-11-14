@@ -29,7 +29,7 @@ export const projects: Project[] = [
     name: "Namma Metro Interactive Network Map",
     framework: "Google Sites",
     description: "An interactive, beautifully designed Namma Metro map web application featuring all operational and upcoming lines, station markers, interchange hubs, filter toggles, search, and detailed popups.",
-    domain: "https://metro.mydemos.co.in"
+    domain: "https://sites.google.com/view/namma-metro-interactive-map"
   }
 ];
 
