@@ -1,4 +1,4 @@
-export type Framework = "React" | "Angular" | "Vanilla";
+export type Framework = "React" | "Angular" | "Vanilla" | "Google Sites";
 
 export type Project = {
   id: string;
