@@ -5,7 +5,7 @@ type Props = {
   onChange: (value: Framework | "All") => void;
 };
 
-const frameworks: (Framework | "All")[] = ["All", "React", "Angular", "Vanilla"];
+const frameworks: (Framework | "All")[] = ["All", "React", "Angular", "Vanilla", "Google Sites"];
 
 export default function FilterBar({ selected, onChange }: Props) {
   return (
